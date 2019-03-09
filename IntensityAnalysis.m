@@ -1,7 +1,9 @@
+% This  script 
+close all;
+clear all;
+clc;
 
-clc
-
-I = imread('C:\Users\hp\Desktop\rep_images\ZI-5FOX-2013-ANN00-IDSI-630-1.jpe');                    % load the image rep_images\rep-img-4x-amy_2
+I = imread('C:\Users\hp\Desktop\rep_images\ZI-5FOX-2013-ANN00-IDSI-630-1.jpe');   % load the image rep_images\rep-img-4x-amy_2
 I = rgb2gray(I);                   %convert from RGB to grayscale 
 % se = strel('disk',3);
 % I = imsubtract(imadd(I,imtophat(I,se)),imbothat(I,se));
