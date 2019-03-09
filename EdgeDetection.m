@@ -1,3 +1,5 @@
+% Thsi script is for detecting edges in an image
+
 close all;
 clear all;
 clc;
