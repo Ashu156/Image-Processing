@@ -1,4 +1,10 @@
-clc;    % Clear the command window.
+% This script extracts image frames from a movie file and saves the image files as .png files.
+% Not very clean. Cleaner version coming soon;
+% Written in MATLAB 2014a
+
+
+%%
+clear all; clc;    % Clear the command window.
 close all;  % Close all figures (except those of imtool.)
 imtool close all;  % Close all imtool figures.
 clear;  % Erase all existing variables.
