@@ -1,4 +1,6 @@
 # Image-Processing
  Basic MATALB codes for image processing
- Created in MATLAB 2014a
+ 
+Written and tested in MATLAB 2014a
+ 
  Work in progress
