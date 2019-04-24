@@ -1,4 +1,5 @@
 % This script extracts image frames from a movie file and saves the image files as .png files.
+% Also, it can stitch back the images into a movie (.avi) file.
 % Not very clean. Cleaner version coming soon;
 % Written in MATLAB 2014a
 
