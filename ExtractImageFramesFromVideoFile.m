@@ -185,7 +185,7 @@ try
 	end
 
 	% Create a VideoWriter object to write the video out to a new, different file.
-	writerObj = VideoWriter('NewRhinos.avi');
+	writerObj = VideoWriter('NewVideo.avi');
 	open(writerObj);
 	getframe(gca); hold on;
 	% Read the frames back in from disk, and convert them to a movie.
