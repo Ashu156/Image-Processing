@@ -1,6 +1,6 @@
 %% 
 % This script stitches images together into a movie and also lets you edit
-% the movie through the images, like putting amask over certain regions of
+% the movie through the images, like putting a mask over certain regions of
 % the video and adding text to the video.
 
 %%
