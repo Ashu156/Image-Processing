@@ -57,7 +57,7 @@ video = VideoWriter('ControlApproach.avi'); % Create the video object
 myVideo.FrameRate = 30; % Can adjust this
 open(video);           % Open the file for writing
 
-for ii = 1:4:numImages % WRires every 5th image into the video file for speeding up the playabck rate
+for ii = 1:4:numImages % Writes every 5th image into the video file for speeding up the playabck rate
     imshow(images3{ii});
     frame = getframe(gcf); %get frame
     writeVideo(video, frame);
