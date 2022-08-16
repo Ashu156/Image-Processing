@@ -1,1 +1,1 @@
-Automated cFos counting puncta
+Automated counting of cFos puncta
